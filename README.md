@@ -1,2 +1,2 @@
-# medi
+# med
 Yarn
