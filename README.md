@@ -1,16 +1,17 @@
 # med
 
-Updating to New Releases
+# Updating to New Releases
+
 You should only need to update the global installation of create-react-native-app very rarely, ideally never.
 
 Updating the react-native-scripts dependency of your app should be as simple as bumping the version number in package.json and reinstalling your project's dependencies.
 
 Upgrading to a new version of React Native requires updating the react-native, react, and expo package versions, and setting the correct sdkVersion in app.json. See the versioning guide for up-to-date information about package version compatibility.
 
-Available Scripts
+# Available Scripts
 If Yarn was installed when the project was initialized, then dependencies will have been installed via Yarn, and you should probably use it to run these commands as well. Unlike dependency installation, command running syntax is identical for Yarn and NPM at the time of this writing.
 
-npm start
+# npm start
 Runs your app in development mode.
 
 Open it in the Expo app on your phone to view it. It will reload if you save edits to your files, and you will see build errors and logs in the terminal.
@@ -23,10 +24,10 @@ yarn start -- --reset-cache
 npm test
 Runs the jest test runner on your tests.
 
-npm run ios
+# npm run ios
 Like npm start, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed.
 
-npm run android
+# npm run android
 Like npm start, but also attempts to open your app on a connected Android device or emulator. Requires an installation of Android build tools (see React Native docs for detailed setup). We also recommend installing Genymotion as your Android emulator. Once you've finished setting up the native build environment, there are two options for making the right copy of adb available to Create React Native App:
 
 Using Android Studio's adb
